@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/vladimircimpeanu/my-cv",
+  "homepage": "http://{vladimircimpeanu}.github.io/{my-cv}",
   "name": "cv-app",
   "version": "0.1.0",
   "private": true,
