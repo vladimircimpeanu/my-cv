@@ -1,0 +1,13 @@
+.mdl-layout__header-row .material-icons {
+    font-size: 44px;
+      line-height: 48px;
+  }
+  
+  .resume-right-col {
+    height:800px;
+    overflow:scroll;
+    overflow-x:hidden;
+    background:#2D2F31;
+    color: white;
+    padding: 4em;
+  }

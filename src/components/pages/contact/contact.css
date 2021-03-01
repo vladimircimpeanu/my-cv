@@ -1,0 +1,53 @@
+.contact-body{
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin:auto;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+}
+  
+.contact-list{
+  margin-top: 15px ;
+  padding: 20px;
+  clip-path: polygon(50% -359%, 100% 53%, 71% 124%, -7% 89%);
+  background: #2D2F31;
+   color:white;
+   list-style: none;
+   font-size:30px !important;
+  }
+  .contact-body img{
+    margin-bottom: 10px;
+    margin-top: 80px;
+    height: 400px;
+    clip-path: polygon(78% 0, 100% 45%, 80% 100%, 11% 100%, 0 20%);
+    }
+  
+    .contact-list h1 {
+      text-align:center;
+      margin-top: 0px;
+    }
+
+.contact-list div div{
+  display:flex;
+   }
+   
+.contact-list div div p{
+ font-size: 30px;
+
+     }
+
+
+.contact-list div div a {
+  margin-top: 5px;
+  color:white !important;
+  text-decoration: none;
+  margin-bottom: 16px;
+}
+.MuiSvgIcon-root{
+  margin-right:  10px;
+  font-size: 30px !important;
+}
