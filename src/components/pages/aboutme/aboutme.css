@@ -1,4 +1,13 @@
+::-webkit-scrollbar {
+    display: none;
+    }
+
+
+
 .contact-body{
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
     background: #232526;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -25,6 +34,7 @@
 
 .top-part{
     display:flex;
+    margin-bottom: -400px;
     
 }
 
@@ -39,8 +49,8 @@
     margin-bottom: 24px;
 }
 .first {
-    margin-bottom: -200px;
-    margin-top: 147px;
+
+    margin-top: 20px;
     display:flex;
     flex-direction: column;
     clip-path: polygon(1% 0, 106% 18%, 45% 63%, -4% 41%);
@@ -78,10 +88,10 @@
 }
 
 .bottom-part #left{
-    clip-path: polygon(0 0, 100% 0%, 50% 75%, 0% 50%);
+    clip-path: polygon(0 0, 54% 0%, 90% 49%, 3% 73%);
     background: #2D2F31;
     width:600px;
-    height:600px;
+    height: 450px;
 }
 
 .bottom-part #left #first-left-p {
@@ -105,10 +115,19 @@
 }
 
 .bottom-part #right{
-    clip-path: polygon(7% 0, 100% 51%, 22% 100%, 0 26%);
- 
+    clip-path:polygon(48% 0, 256% 92%, 13% 70%, 0 31%);
     background: #2D2F31;
     width:600px;
-    height:600px;
-
+    height:100%;
+    margin-left: 9px;
 }
+
+.bottom-part #right p{
+    padding-left: 20px;
+    padding-top: 103px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 43px;
+    color: aqua;
+} 

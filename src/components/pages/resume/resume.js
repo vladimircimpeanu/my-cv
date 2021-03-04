@@ -58,13 +58,13 @@ class Resume extends Component {
                             startYear={2011}
                             endYear={2014}
                             schoolName="Nursing School 'Ocrotirea' , Cluj-Napoca"
-                            schoolDescription="This school provided me with a generalist nurse diploma"
+                            schoolDescription="This school provided me with a generalist nurse diploma."
                         />
                         <Education
                             startYear={2020}
                             endYear={2021}
                             schoolName="Scoala informala de IT , Cluj-Napoca"
-                            schoolDescription="This school provided me with a diploma in web development"
+                            schoolDescription="This school provided me with a diploma in web development."
                         />
                         <hr style={{ borderTop: '3px solid white' }} />
                         <h2>Experience</h2>
