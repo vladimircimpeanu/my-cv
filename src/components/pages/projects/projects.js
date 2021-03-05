@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { ProgressBar } from 'react-mdl'
 import Nature from '../../../assets/images/nature.jpg';
 import "./projects.css";
 
@@ -11,9 +11,7 @@ class Projects extends Component {
 
     render() {
         return (
-
             <div className="body" style={{
-
                 height: '100%',
                 backgroundImage: "url(" + Nature + ")",
                 backgroundPosition: 'rightTop',
@@ -36,11 +34,11 @@ class Projects extends Component {
                         </div>
                         <div className="card">
                             <div class="title">
-                                <h1>JavaScript project #1</h1>
+                                <h1>JavaScript project #2</h1>
                             </div>
                             <div className="line"></div>
-                            <div className="card-bottom"><div>In this project i made a login page of a movie website.</div>
-                                <a href="https://github.com/razvantimis/myIMDB_17.3/tree/main/pages/login_register">Github</a>
+                            <div className="card-bottom"><div>  Work in progress </div>
+                                <ProgressBar indeterminate />
                             </div>
                         </div>
                     </div> :
@@ -55,11 +53,8 @@ class Projects extends Component {
                             </div>
                         </div>
                     </div>
-
-
                 }
             </div>
-
         )
     }
 }

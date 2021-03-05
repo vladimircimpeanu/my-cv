@@ -83,3 +83,13 @@
     width:100%;
     height:5px;
 }
+
+.mdl-progress >.bar{
+    top:20px  !important;
+    height:10px; 
+}
+
+.mdl-progress >.bufferbar{
+    top:20px  !important;
+    height:10px;
+}
