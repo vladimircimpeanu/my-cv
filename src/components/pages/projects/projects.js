@@ -5,8 +5,11 @@ import "./projects.css";
 
 class Projects extends Component {
 
-    state = {
-        visible: true
+    constructor(props) {
+        super(props)
+        this.state = {
+            visible: true
+        }
     }
 
     render() {
