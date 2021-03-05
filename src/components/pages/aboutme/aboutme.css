@@ -88,7 +88,7 @@
 }
 
 .bottom-part #left{
-    clip-path: polygon(0 0, 54% 0%, 90% 49%, 3% 73%);
+    clip-path: polygon(0 0,54% 0,84% 54%,3% 73%);
     background: #2D2F31;
     width:600px;
     height: 450px;
