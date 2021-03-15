@@ -10,8 +10,7 @@ import './resume.css';
 class Resume extends Component {
     render() {
         return (
-            <div style={{
-
+            <div className="background" style={{
                 height: '100%',
                 backgroundImage: "url(" + Nature + ")",
                 backgroundPosition: 'rightTop',
