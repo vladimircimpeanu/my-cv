@@ -16,3 +16,14 @@
    justify-content: center !important;
 }
 }
+
+@media (min-width: 1024px) {
+    .avatar-img{
+     padding-top:10% !important;
+    }
+    #root > div > div > div > div.mdl-layout__drawer-button{
+        color:aqua !important;
+        width:30px;
+    }
+  
+}
