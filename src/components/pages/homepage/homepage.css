@@ -1,0 +1,18 @@
+@media (min-width: 360px) {
+.avatar-img{
+    padding-top:0px;
+}
+#root > div > div > div > div.mdl-layout__content > div:nth-child(2) > div > div{
+    margin-top:0px;
+}
+
+#root > div > div > div > div.mdl-layout__drawer-button{
+    color:white;
+}
+#root > div > div > div > div.mdl-layout__content > div:nth-child(2) > div > div > div > h1{
+    font-size: 55px;
+}
+#root > div > div > div > div.mdl-layout__content > div:nth-child(2) > div > div > div > div{
+   justify-content: center;
+}
+}
