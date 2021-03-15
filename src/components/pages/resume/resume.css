@@ -14,11 +14,10 @@
 
   @media (min-width: 360px) {
     .background{
-      margin-top: -15%;
-      height: 240% !important;
+      height: 240% ;
     }
 
     #root > div > div > div > div.mdl-layout__content > div:nth-child(2) > div > div.mdl-cell.mdl-cell--6-col.resume-right-col {
-      margin-left: 14px !important;
+      margin-left: 14px ;
     }
   }
