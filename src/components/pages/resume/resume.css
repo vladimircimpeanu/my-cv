@@ -12,9 +12,9 @@
     padding: 4em;
   }
 
-  @media (min-width: 375px) {
+  @media (min-width: 360px) {
     .background{
-      height: 212% !important;
+      height: 240% !important;
     }
 
     #root > div > div > div > div.mdl-layout__content > div:nth-child(2) > div > div.mdl-cell.mdl-cell--6-col.resume-right-col {
