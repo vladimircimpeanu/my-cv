@@ -85,7 +85,7 @@
 
 @media (max-width: 600px) {
     .contact-body{
-        height:200% !important;
+        height:120% !important;
     }
     .first {
         box-shadow: 2px 2px grey;

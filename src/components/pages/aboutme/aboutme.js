@@ -9,6 +9,7 @@ class About extends Component {
 
             <div className="contact-body"
                 style={{
+                    height: '100%',
                     backgroundImage: "url(" + Nature + ")",
                     backgroundPosition: 'center',
                     backgroundSize: 'cover',

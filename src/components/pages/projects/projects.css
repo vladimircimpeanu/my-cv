@@ -96,9 +96,9 @@
     height:10px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 460px) {
     .background{
-        height:140%;
+        height:120% !important;
     }
 
     .tab{
