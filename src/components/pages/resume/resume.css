@@ -3,21 +3,89 @@
       line-height: 48px;
   }
   
-  .resume-right-col {
-    height:800px;
+  .right-container{
+    margin-right:10px;
+    margin-top:10px;
+    height:700px;
     overflow:scroll;
     overflow-x:hidden;
     background:#2D2F31;
     color: white;
     padding: 4em;
+    width:50%;
   }
+.left-container{
+  width:50%;
+}
 
-  @media (min-width: 360px) {
-    .background{
-      height: 240% ;
-    }
+.body{
+  height:100%;
+  display:flex;
+  flex-direction: row;
+  position:absolute;
+}
+.left-container h2{
+  text-align: center;
+  color:white;
+}
+.left-container h4{ 
+  text-align: center;
+  color: white;
+}
+.left-container h5 {
+  color:white;
+  font-size: 30px;
+  text-align:center ;
+  text-decoration: underline ;
+}
 
-    #root > div > div > div > div.mdl-layout__content > div:nth-child(2) > div > div.mdl-cell.mdl-cell--6-col.resume-right-col {
+.left-container hr{
+   border-top:3px solid white;
+   width: 100% ;
+}
+
+.left-container p{
+  color: white;
+  font-size: 30px;
+  text-align: center; 
+  
+}
+
+  @media (max-width: 400px) {
+   
+   .body{
+     height:200% !important;
+     display:flex;
+     flex-direction: column;
+   }
+  .left-container{
+    height:50%;
+    align-self: center;
+    margin-bottom: 55px;
+   }
+
+  .left-container h2{
+    font-size: 30px;
+    line-height: 38px;
+    margin-bottom:-20px;
+  }
+  .left-container h5{
+    font-size: 30px;
+    line-height: 38px;
+    
+  }
+  .left-container p{
+    font-size: 25px;
+    line-height: 27px;
+    
+  }
+  .left-container #email{
+    text-align: center;
+    font-size:22px;
+    margin-left:-40px;
+  }
+  .right-container {
+      align-self: center;
       margin-left: 14px ;
     }
   }

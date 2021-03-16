@@ -9,11 +9,10 @@ class About extends Component {
 
             <div className="contact-body"
                 style={{
-                    height: '100%',
                     backgroundImage: "url(" + Nature + ")",
-                    backgroundPosition: 'rightTop',
+                    backgroundPosition: 'center',
                     backgroundSize: 'cover',
-                    backgroundRepeat: 'no-repeat',
+                    backgroundRepeat: 'no-repeat'
                 }}>
                 <div class="body-list">
 
@@ -30,7 +29,7 @@ class About extends Component {
                         <div id="right"><p>I lived in Belgium for 6 years which provided me with the oportunity to learn french.
                          I am also a very outgoing person always looking for new challenges.</p></div>
                     </div>
-                    
+
                 </div>
             </div>
 

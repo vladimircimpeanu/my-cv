@@ -1,8 +1,10 @@
 
-.body{
-    align-items: center;
-     display:flex;
+.content{
+    padding-top: 10%;
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .tabs{
@@ -92,4 +94,27 @@
 .mdl-progress >.bufferbar{
     top:20px  !important;
     height:10px;
+}
+
+@media (max-width: 600px) {
+    .background{
+        height:140%;
+    }
+
+    .tab{
+        text-align: center;
+    }
+    .cards{
+        display:flex;
+        flex-direction: column;
+        margin-top:0px;
+        
+    }
+
+    .card{
+        margin-bottom: 10px;
+        height:300px;
+        width:344px;
+    }
+
 }
