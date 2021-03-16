@@ -7,14 +7,8 @@ class About extends Component {
     render() {
         return (
 
-            <div className="contact-body"
-                style={{
-                    height: '100%',
-                    backgroundImage: "url(" + Nature + ")",
-                    backgroundPosition: 'center',
-                    backgroundSize: 'cover',
-                    backgroundRepeat: 'no-repeat'
-                }}>
+            <div className="contact-body">
+
                 <div class="body-list">
 
                     <div class="top-part">

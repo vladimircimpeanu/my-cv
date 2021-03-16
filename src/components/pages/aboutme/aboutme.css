@@ -1,4 +1,11 @@
-
+body {
+    width:100%;
+    height:100% !important;
+    background-image: url("../../../assets/images/nature.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .body-list{
     display: flex;
     flex-direction: column;
@@ -84,9 +91,7 @@
 }
 
 @media (max-width: 600px) {
-    .contact-body{
-        height:120% !important;
-    }
+  
     .first {
         box-shadow: 2px 2px grey;
         display: flex;
