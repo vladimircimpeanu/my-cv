@@ -13,27 +13,23 @@ class Contact extends Component {
     render() {
         return (
 
-            <div className="contact-body"
-                style={{
-                    backgroundImage: "url(" + Nature + ")",
-                    backgroundPosition: 'center',
-                    backgroundSize: 'cover',
-                    backgroundRepeat: 'no-repeat'
-                }}>
+            <div className="contact-body">
+              
                 <div>
                     <img src="https://scontent-bru2-1.xx.fbcdn.net/v/t1.15752-9/151224107_267958914946461_8049113784340459901_n.jpg?_nc_cat=110&ccb=3&_nc_sid=ae9488&_nc_ohc=8GfEliHa_mkAX-Z2ISx&_nc_ht=scontent-bru2-1.xx&oh=6509e659932864a76a77dbf50a671bd0&oe=6058DF49"
                         alt="avatar" />
                 </div>
+
                 <div className="contact-list">
-                    <h1>Contact me at:</h1>
                     <div>
+                        <h1>Contact me at:</h1>
                         <div>
                             <PhoneAndroidIcon />
                             <p>Phone: +320487680132</p>
                         </div>
                         <div className="list-item">
                             <EmailIcon />
-                            <p>Email: vladimir.cimpeanu@yahoo.com</p>
+                            <a href="mailto: vladimir.cimpeanu@yahoo.com">Email</a>
                         </div>
                         <div>
                             <FacebookIcon />
