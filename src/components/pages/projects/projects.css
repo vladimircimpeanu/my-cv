@@ -9,7 +9,7 @@
 
 .tabs{
     display:flex; 
-    margin-top:150px; 
+    margin-top:10px; 
     margin-left:20%;
     margin-right:20%;
     
@@ -118,6 +118,6 @@
     }
 
     .github{
-        margin-top:0%;
+     font-size:20px!important;
     }
 }
