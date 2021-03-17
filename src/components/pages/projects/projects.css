@@ -1,4 +1,6 @@
-
+br{
+    padding-top:10px;
+}
 .content{
     padding-top: 10%;
     display: flex;
@@ -49,21 +51,25 @@
     flex-direction: column;
     justify-content:space-between;
     align-items: center;
+    line-height: 23px !important;
 }
 .card-bottom div {
  text-align: center;
     font-size: 20px;
 
 }
-.react-card-bottom {
+.react-card-bottom div{
+    padding-top:10%;
     font-size: 20px;
-    padding-top: 5%;
     display:flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+    justify-content: center;
+    
 }
 .react-card-bottom a{
-     padding-top: 10%;
+    padding-top: 10%;
     font-size:30px;
     color:aqua;
     text-decoration: none;
@@ -120,5 +126,13 @@
 
     .github{
      font-size:20px!important;
+    }
+    .react-card-bottom{
+        text-align: center;
+    }
+    .react-card-bottom a{
+        font-size: 20px;
+        line-height: 10px;
+        padding-top:5%;
     }
 }

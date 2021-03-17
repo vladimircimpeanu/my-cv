@@ -32,8 +32,11 @@ class Projects extends Component {
                                     <h1>Login page project #1</h1>
                                 </div>
                                 <div className="line"></div>
-                                <div className="card-bottom"><div>In this project i made a login page of a movie website.</div>
-                                    <a className="github" href="https://github.com/razvantimis/myIMDB_17.3/tree/main/pages/login_register">Github</a>
+                                <div className="card-bottom">
+                                    <div>In this project i made a login page of a movie website.<br />
+                                        <a className="github" href="https://github.com/razvantimis/myIMDB_17.3/tree/main/pages/login_register">Github</a>
+                                    </div>
+
                                 </div>
                             </div>
                             <div className="card">
@@ -52,14 +55,16 @@ class Projects extends Component {
                                     <h1>My CV project #1</h1>
                                 </div>
                                 <div className="line"></div>
-                                <div className="react-card-bottom"><div>In this project i made this resume page</div>
-                                    <a href="https://github.com/vladimircimpeanu/my-cv">Github</a>
+                                <div className="react-card-bottom">
+                                    <div>In this project i made this resume page
+                                        <a href="https://github.com/vladimircimpeanu/my-cv">Github</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     }
                 </div>
-            </div>
+            </div >
         )
     }
 }
