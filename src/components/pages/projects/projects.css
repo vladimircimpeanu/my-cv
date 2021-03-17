@@ -114,8 +114,8 @@ br{
         display:flex;
         flex-direction: column;
         margin-top:0px;
-        width: 80%;
-        margin-right: 20%;
+        justify-content: center;
+        align-items: center;
     }
 
     .card{
