@@ -1,6 +1,4 @@
-br{
-    padding-top:10px;
-}
+
 .content{
     padding-top: 10%;
     display: flex;
@@ -103,6 +101,13 @@ br{
 }
 
 @media (max-width: 460px) {
+    #root > div > div > div > div.mdl-layout__drawer-button > i{
+        color:aqua;
+    }
+    h1{ 
+    font-size: 34px !important;
+    }
+
     .background{
         height:120% !important;
     }
@@ -120,7 +125,7 @@ br{
 
     .card{
         margin-bottom: 10px;
-        height:300px;
+        height:230px;
         width:344px;
     }
 

@@ -57,7 +57,7 @@ class Projects extends Component {
                                 <div className="line"></div>
                                 <div className="react-card-bottom">
                                     <div>In this project i made this resume page
-                                        <a href="https://github.com/vladimircimpeanu/my-cv">Github</a>
+                                    <a href="https://github.com/vladimircimpeanu/my-cv">Github</a>
                                     </div>
                                 </div>
                             </div>
