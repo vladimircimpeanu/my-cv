@@ -33,8 +33,8 @@ class Projects extends Component {
                                 </div>
                                 <div className="line"></div>
                                 <div className="card-bottom">
-                                    <div>In this project i made a login page of a movie website.<br />
-                                        <a className="github" href="https://github.com/razvantimis/myIMDB_17.3/tree/main/pages/login_register">Github</a>
+                                    <div>In this project i made a login page of a movie website.
+                                     <a className="github" href="https://github.com/razvantimis/myIMDB_17.3/tree/main/pages/login_register">Github</a>
                                     </div>
 
                                 </div>
