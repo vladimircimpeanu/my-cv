@@ -42,7 +42,8 @@ class Projects extends Component {
                                     <h1>JavaScript project #2</h1>
                                 </div>
                                 <div className="line"></div>
-                                <div className="card-bottom"><div>  Work in progress </div>
+                                <div className="card-bottom">
+                                    <div>  Work in progress </div>
                                     <ProgressBar indeterminate />
                                 </div>
                             </div>
