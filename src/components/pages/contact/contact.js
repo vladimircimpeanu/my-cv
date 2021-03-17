@@ -9,17 +9,16 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import Nature from '../../../assets/images/nature.jpg';
 import './contact.css';
 
+
 class Contact extends Component {
     render() {
         return (
 
-            <div className="contact-body">
-              
+            < div className="contact-body" >
                 <div>
                     <img src="https://scontent-bru2-1.xx.fbcdn.net/v/t1.15752-9/151224107_267958914946461_8049113784340459901_n.jpg?_nc_cat=110&ccb=3&_nc_sid=ae9488&_nc_ohc=8GfEliHa_mkAX-Z2ISx&_nc_ht=scontent-bru2-1.xx&oh=6509e659932864a76a77dbf50a671bd0&oe=6058DF49"
                         alt="avatar" />
                 </div>
-
                 <div className="contact-list">
                     <div>
                         <h1>Contact me at:</h1>
@@ -41,11 +40,11 @@ class Contact extends Component {
                         </div>
                         <div>
                             <LinkedInIcon />
-                            <a href="">LinkedIn</a>
+                            <a href="https://linkedin.com/in/vladimir-petruț-cîmpeanu-ba29331b5">LinkedIn</a>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div >
 
         )
     }

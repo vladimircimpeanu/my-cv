@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
-import { Grid, Cell } from 'react-mdl';
 import './homepage.css';
 
 class Home extends Component {
     render() {
         return (
-            <div style={{ width: '100%', margin: 'auto' }}>
-                <Grid className="homepage-grid">
-                    <Cell col={12}>
+            <div >
+                <div className="homepage-grid">
+                    <div>
                         <img src="https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_960_720.png"
                             alt="avatar"
                             className="avatar-img"
@@ -28,8 +27,8 @@ class Home extends Component {
                                 </a>
                             </div>
                         </div>
-                    </Cell>
-                </Grid>
+                    </div>
+                </div>
             </div>
         )
     }

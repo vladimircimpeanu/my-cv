@@ -1,29 +1,16 @@
-@media (min-width: 360px) {
-.avatar-img{
-    padding-top:0px !important;
-}
-#root > div > div > div > div.mdl-layout__content > div:nth-child(2) > div > div{
-    margin-top:0px !important;
+.avatar-img {
+    height: 250px;
+    padding-top: 13em;
 }
 
-#root > div > div > div > div.mdl-layout__drawer-button{
-    color:white !important;
-}
-#root > div > div > div > div.mdl-layout__content > div:nth-child(2) > div > div > div > h1{
-    font-size: 55px !important;
-}
-#root > div > div > div > div.mdl-layout__content > div:nth-child(2) > div > div > div > div{
-   justify-content: center !important;
-}
-}
 
-@media (min-width: 1024px) {
-    .avatar-img{
-     padding-top:10% !important;
+@media (max-width: 460px){
+    .avatar-img {
+        height: 250px;
+        padding-top: 0em;
     }
-    #root > div > div > div > div.mdl-layout__drawer-button{
-        color:aqua !important;
-        width:30px;
-    }
-  
+    .social-links{
+        width:100%;
+    } 
+
 }
