@@ -11,13 +11,7 @@ class Resume extends Component {
         return (
 
 
-            < div className="body" style={{
-                height: '100%',
-                backgroundImage: "url(" + Nature + ")",
-                backgroundPosition: 'rightTop',
-                backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat'
-            }}>
+            < div className="body">
                 <div className="left-container" style={{ textAlign: 'center' }}>
                     <img src="https://scontent-bru2-1.xx.fbcdn.net/v/t1.15752-9/151224107_267958914946461_8049113784340459901_n.jpg?_nc_cat=110&ccb=3&_nc_sid=ae9488&_nc_ohc=8GfEliHa_mkAX-Z2ISx&_nc_ht=scontent-bru2-1.xx&oh=6509e659932864a76a77dbf50a671bd0&oe=6058DF49"
                         alt="avatar"

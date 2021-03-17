@@ -6,7 +6,7 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
-import Nature from '../../../assets/images/nature.jpg';
+import '../../../assets/images/nature.jpg';
 import './contact.css';
 
 
