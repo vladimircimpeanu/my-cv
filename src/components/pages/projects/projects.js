@@ -52,7 +52,7 @@ class Projects extends Component {
                         <div className="cards">
                             <div className="card">
                                 <div class="title">
-                                    <h1>My CV project #1</h1>
+                                    <h1>My CV react project #1</h1>
                                 </div>
                                 <div className="line"></div>
                                 <div className="react-card-bottom">
