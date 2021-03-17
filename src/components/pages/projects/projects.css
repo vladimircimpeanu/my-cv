@@ -108,12 +108,17 @@
     }
     .card{
         margin-bottom: 10px;
-        height:230px;
+        height:330px;
         width:344px;
     }
 
     .card-bottom{
         padding-top:5%;
+    }
+
+    .card-bottom div{
+        text-align: center;
+        font-size: 15px;
     }
 
 }
