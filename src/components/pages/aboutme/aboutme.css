@@ -90,7 +90,7 @@ body {
     width: 238px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 460px) {
   
     .first {
         box-shadow: 2px 2px grey;

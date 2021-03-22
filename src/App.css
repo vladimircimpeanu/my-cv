@@ -95,3 +95,7 @@ span.mdl-layout-title {
   display: flex;
   flex-direction: column;
 }
+
+span.mdl-layout-title {
+  font-size: 23px;
+}
