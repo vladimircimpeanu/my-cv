@@ -8,7 +8,7 @@
 .right-container{
     margin-right:10px;
     margin-top:10px;
-    height:700px;
+    height:662px;
     overflow:scroll;
     overflow-x:hidden;
     background:#2D2F31;
@@ -61,7 +61,7 @@
      flex-direction: column;
    }
   .left-container{
-    height:50%;
+    height:36%;
     align-self: center;
     margin-bottom: 55px;
    }

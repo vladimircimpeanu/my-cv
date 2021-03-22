@@ -14,7 +14,7 @@ class Home extends Component {
                         <div className="banner-text">
                             <h1>Front End Web Developer</h1>
                             <hr />
-                            <p>HTML | CSS | JavaScript | React</p>
+                            <p>HTML | CSS | JavaScript | React | Github </p>
                             <div className="social-links">
                                 <a href="https://linkedin.com/in/vladimir-petruț-cîmpeanu-ba29331b5" rel="noopener noreferrer" target="_blank">
                                     <i className="fa fa-linkedin-square" aria-hidden="true" />
