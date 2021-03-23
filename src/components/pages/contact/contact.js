@@ -16,7 +16,7 @@ class Contact extends Component {
 
             < div className="contact-body" >
                 <div>
-                    <img src="https://scontent-bru2-1.xx.fbcdn.net/v/t1.15752-9/151224107_267958914946461_8049113784340459901_n.jpg?_nc_cat=110&ccb=3&_nc_sid=ae9488&_nc_ohc=8GfEliHa_mkAX-Z2ISx&_nc_ht=scontent-bru2-1.xx&oh=6509e659932864a76a77dbf50a671bd0&oe=6058DF49"
+                    <img src="https://i.postimg.cc/qMSKNDVw/151224107-267958914946461-8049113784340459901-n.jpg"
                         alt="avatar" />
                 </div>
                 <div className="contact-list">
