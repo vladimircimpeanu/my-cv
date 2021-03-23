@@ -14,10 +14,7 @@ class Resume extends Component {
             < div className="body">
                 <div className="left-container" style={{ textAlign: 'center' }}>
                     <img src="https://i.postimg.cc/qMSKNDVw/151224107-267958914946461-8049113784340459901-n.jpg"
-                        alt="avatar"
-                        style={{
-                  
-                        }} />
+                        alt="avatar" />
                     <h2>Vladimir-Petruț Cîmpeanu</h2>
                     <h4>Web Developer</h4>
                     <hr />
